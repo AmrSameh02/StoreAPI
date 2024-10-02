@@ -1,0 +1,12 @@
+C:\My projects\C#\Store.Route\Store.Route.Core\bin\Debug\net8.0\Store.Route.Core.deps.json
+C:\My projects\C#\Store.Route\Store.Route.Core\bin\Debug\net8.0\Store.Route.Core.dll
+C:\My projects\C#\Store.Route\Store.Route.Core\bin\Debug\net8.0\Store.Route.Core.pdb
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.AssemblyInfoInputs.cache
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.AssemblyInfo.cs
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.csproj.CoreCompileInputs.cache
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.dll
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\refint\Store.Route.Core.dll
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.pdb
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\ref\Store.Route.Core.dll
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.csproj.AssemblyReference.cache

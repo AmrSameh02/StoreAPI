@@ -1,0 +1,17 @@
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Route.Service.csproj.AssemblyReference.cache
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Route.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Route.Service.AssemblyInfoInputs.cache
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Route.Service.AssemblyInfo.cs
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Route.Service.csproj.CoreCompileInputs.cache
+C:\My projects\C#\Store.Route\Store.Route.Service\bin\Debug\net8.0\Store.Route.Service.deps.json
+C:\My projects\C#\Store.Route\Store.Route.Service\bin\Debug\net8.0\Store.Route.Service.dll
+C:\My projects\C#\Store.Route\Store.Route.Service\bin\Debug\net8.0\Store.Route.Service.pdb
+C:\My projects\C#\Store.Route\Store.Route.Service\bin\Debug\net8.0\Store.Route.Core.dll
+C:\My projects\C#\Store.Route\Store.Route.Service\bin\Debug\net8.0\Store.Route.Repository.dll
+C:\My projects\C#\Store.Route\Store.Route.Service\bin\Debug\net8.0\Store.Route.Repository.pdb
+C:\My projects\C#\Store.Route\Store.Route.Service\bin\Debug\net8.0\Store.Route.Core.pdb
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Ro.6556511A.Up2Date
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Route.Service.dll
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\refint\Store.Route.Service.dll
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\Store.Route.Service.pdb
+C:\My projects\C#\Store.Route\Store.Route.Service\obj\Debug\net8.0\ref\Store.Route.Service.dll
