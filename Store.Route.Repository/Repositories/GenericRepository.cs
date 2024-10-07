@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Store.Route.Core.Entities;
 using Store.Route.Core.Repositories.Contract;
+using Store.Route.Core.Specifications;
 using Store.Route.Repository.Data.Contexts;
 using System;
 using System.Collections.Generic;
@@ -39,6 +40,11 @@ namespace Store.Route.Repository.Repositories
             return await _context.Set<TEntity>().ToListAsync();
         }
 
+        public async Task<IEnumerable<TEntity>> GetAllWithSpecAsync(ISpecifications<TEntity, Tkey> spec)
+        {
+            return await ApplySpecification(spec).ToListAsync();
+        }
+
         public async Task<TEntity> GetAsync(Tkey id)
         {
             if(typeof (TEntity) == typeof(Product))
@@ -49,9 +55,26 @@ namespace Store.Route.Repository.Repositories
             return await _context.Set<TEntity>().FindAsync(id);
         }
 
+        public async Task<int> GetCountAsync(ISpecifications<TEntity, Tkey> spec)
+        {
+            return await ApplySpecification(spec).CountAsync();
+        }
+
+        public async Task<TEntity> GetWithSpecAsync(ISpecifications<TEntity, Tkey> spec)
+        {
+            return await ApplySpecification(spec).FirstOrDefaultAsync();
+        }
+
         public void Update(TEntity entity)
         {
             _context.Update(entity);
         }
+    
+        
+        private IQueryable<TEntity> ApplySpecification(ISpecifications<TEntity, Tkey> spec)
+        {
+            return SpecificationsEvaluator<TEntity, Tkey>.GetQuery(_context.Set<TEntity>(), spec);
+        }
+
     }
 }

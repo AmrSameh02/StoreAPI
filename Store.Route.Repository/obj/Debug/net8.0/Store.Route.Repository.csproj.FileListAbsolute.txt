@@ -13,3 +13,4 @@ C:\My projects\C#\Store.Route\Store.Route.Repository\obj\Debug\net8.0\Store.Rout
 C:\My projects\C#\Store.Route\Store.Route.Repository\obj\Debug\net8.0\refint\Store.Route.Repository.dll
 C:\My projects\C#\Store.Route\Store.Route.Repository\obj\Debug\net8.0\Store.Route.Repository.pdb
 C:\My projects\C#\Store.Route\Store.Route.Repository\obj\Debug\net8.0\ref\Store.Route.Repository.dll
+C:\My projects\C#\Store.Route\Store.Route.Repository\obj\Debug\net8.0\Store.Route.Repository.sourcelink.json

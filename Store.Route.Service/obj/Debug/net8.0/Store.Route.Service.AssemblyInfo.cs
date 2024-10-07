@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Store.Route.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b649766b9b6fbd4f28d9d222dad68545ae8d6f33")]
 [assembly: System.Reflection.AssemblyProductAttribute("Store.Route.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Store.Route.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

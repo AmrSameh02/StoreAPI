@@ -10,3 +10,4 @@ C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\refint\Store.Rou
 C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.pdb
 C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\ref\Store.Route.Core.dll
 C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.csproj.AssemblyReference.cache
+C:\My projects\C#\Store.Route\Store.Route.Core\obj\Debug\net8.0\Store.Route.Core.sourcelink.json
