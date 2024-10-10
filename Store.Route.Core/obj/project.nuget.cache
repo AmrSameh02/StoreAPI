@@ -1,14 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "UlNk3XXKQIMYDhOFz/ImSH6ohVilXM5JYefql2lieGE0IBVlVohuETYQuKKhQg7hpxnTyy2gRUR3zJnBrwq8BQ==",
+  "dgSpecHash": "F64TpQdqASGf6+2/ub6lRbMXg4V8inZZzg8RNQCPvwINZlhvV95Hze0P2mwcw8aKomO5q/d+BGwWSbgY+XHYfw==",
   "success": true,
   "projectFilePath": "C:\\My projects\\C#\\Store.Route\\Store.Route.Core\\Store.Route.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amrsa\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\amrsa\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\amrsa\\.nuget\\packages\\stackexchange.redis\\2.8.16\\stackexchange.redis.2.8.16.nupkg.sha512",
+    "C:\\Users\\amrsa\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

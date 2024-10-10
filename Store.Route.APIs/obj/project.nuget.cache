@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xlumE8GNB0ezsPuoyuT2K+EoG4Jfo69l/Sob+pZDJb36KuaDM3cXqnBqkcivWeRr/vH46Mi8CQvaiTrGzAdNyw==",
+  "dgSpecHash": "oC04ewVAPZazuY5Vlu/0rBRvMUJ+jIqJnjDaWV9zHfnFxrwpaz7pOD0hXGFQVmV8ocsqD9Re+qOQI38WytZCYw==",
   "success": true,
   "projectFilePath": "C:\\My projects\\C#\\Store.Route\\Store.Route.APIs\\Store.Route.APIs.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,8 @@
     "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\amrsa\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\amrsa\\.nuget\\packages\\stackexchange.redis\\2.8.16\\stackexchange.redis.2.8.16.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\amrsa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

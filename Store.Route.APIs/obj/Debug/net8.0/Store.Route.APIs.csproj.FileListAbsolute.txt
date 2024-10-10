@@ -144,3 +144,5 @@ C:\My projects\C#\Store.Route\Store.Route.APIs\obj\Debug\net8.0\Store.Route.APIs
 C:\My projects\C#\Store.Route\Store.Route.APIs\bin\Debug\net8.0\AutoMapper.dll
 C:\My projects\C#\Store.Route\Store.Route.APIs\obj\Debug\net8.0\Store.Route.APIs.sourcelink.json
 C:\My projects\C#\Store.Route\Store.Route.APIs\bin\Debug\net8.0\Store.Route.APIs.staticwebassets.runtime.json
+C:\My projects\C#\Store.Route\Store.Route.APIs\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\My projects\C#\Store.Route\Store.Route.APIs\bin\Debug\net8.0\StackExchange.Redis.dll
