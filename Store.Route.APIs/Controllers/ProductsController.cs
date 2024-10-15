@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Store.Route.APIs.Attributes;
 using Store.Route.APIs.Errors;
 using Store.Route.Core.DTOs.Products;
 using Store.Route.Core.Helper;
@@ -19,6 +21,8 @@ namespace Store.Route.APIs.Controllers
 
         [ProducesResponseType(typeof(PaginationResponse<ProductDto>), StatusCodes.Status200OK)]
         [HttpGet] //GET BaseUrl/api/products
+        [Cache(100)]
+        [Authorize]
         public async Task<ActionResult<PaginationResponse<ProductDto>>> GetAllProducts([FromQuery] ProductSpecParams productSpec)
         {
             var result = await _productService.GetAllProductAsync(productSpec);

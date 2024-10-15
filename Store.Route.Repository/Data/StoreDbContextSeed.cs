@@ -1,4 +1,5 @@
 ﻿using Store.Route.Core.Entities;
+using Store.Route.Core.Entities.Order;
 using Store.Route.Repository.Data.Contexts;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace Store.Route.Repository.Data
     {
         public async static Task SeedAsync(StoreDbContext _context)
         {
+          
             if(_context.Brands.Count() == 0)
             {
                 //1- read data from json files
@@ -25,6 +27,7 @@ namespace Store.Route.Repository.Data
                     await _context.SaveChangesAsync();
                 }
             }
+            
             if(_context.Types.Count() == 0)
             {
                 var typesData = File.ReadAllText(@"..\Store.Route.Repository\Data\DataSeed\types.json");
@@ -46,6 +49,18 @@ namespace Store.Route.Repository.Data
                     await _context.SaveChangesAsync();
                 }
             }
+
+            if (_context.DeliveryMethods.Count() == 0)
+            {
+                var DeliveryData = File.ReadAllText(@"..\Store.Route.Repository\Data\DataSeed\delivery.json");
+                var deliveryMethods = JsonSerializer.Deserialize<List<DeliveryMethod>>(DeliveryData);
+                if (deliveryMethods is not null && deliveryMethods.Count() > 0)
+                {
+                    await _context.DeliveryMethods.AddRangeAsync(deliveryMethods);
+                    await _context.SaveChangesAsync();
+                }
+            }
+
 
         }
     }
