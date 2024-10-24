@@ -21,6 +21,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Store.Route.Core.Mapping.Auth;
+using Store.Route.Core.Mapping.Orders;
+using Store.Route.Service.Services.Orders;
+using Store.Route.Service.Services.Baskets;
+using Store.Route.Service.Services.Payment;
 
 namespace Store.Route.APIs.Helper
 {
@@ -72,17 +76,21 @@ namespace Store.Route.APIs.Helper
 
         private static IServiceCollection AddUserDefinedService(this IServiceCollection services)
         {
+            services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped<ICacheService, CacheService>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IPaymentService, PaymentService>();
             return services;
         }
 
         private static IServiceCollection AddAutoMapperService(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddAutoMapper(m => m.AddProfile(new OrderProfile(configuration)));
             services.AddAutoMapper(m => m.AddProfile(new ProductProfile(configuration)));
             services.AddAutoMapper(m => m.AddProfile(new BasketProfile()));
             services.AddAutoMapper(m => m.AddProfile(new AuthProfile()));

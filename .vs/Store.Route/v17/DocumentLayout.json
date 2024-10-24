@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\My projects\\C#\\Store.Route\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A04CB4A-F50A-46BD-AE6B-39619A443B34}|Store.Route.APIs\\Store.Route.APIs.csproj|c:\\my projects\\c#\\store.route\\store.route.apis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A04CB4A-F50A-46BD-AE6B-39619A443B34}|Store.Route.APIs\\Store.Route.APIs.csproj|solutionrelative:store.route.apis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21098A08-482D-4665-A7DB-B4151862D3DF}|Store.Route.Core\\Store.Route.Core.csproj|c:\\my projects\\c#\\store.route\\store.route.core\\entities\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21098A08-482D-4665-A7DB-B4151862D3DF}|Store.Route.Core\\Store.Route.Core.csproj|solutionrelative:store.route.core\\entities\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED5D3F0-4505-401F-A4C2-8EEB59BA3380}|Store.Route.Service\\Store.Route.Service.csproj|c:\\my projects\\c#\\store.route\\store.route.service\\services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED5D3F0-4505-401F-A4C2-8EEB59BA3380}|Store.Route.Service\\Store.Route.Service.csproj|solutionrelative:store.route.service\\services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\My projects\\C#\\Store.Route\\Store.Route.Core\\Entities\\Order\\Order.cs",
+              "RelativeDocumentMoniker": "Store.Route.Core\\Entities\\Order\\Order.cs",
+              "ToolTip": "C:\\My projects\\C#\\Store.Route\\Store.Route.Core\\Entities\\Order\\Order.cs",
+              "RelativeToolTip": "Store.Route.Core\\Entities\\Order\\Order.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:23:45.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\My projects\\C#\\Store.Route\\Store.Route.Service\\Services\\Orders\\OrderService.cs",
+              "RelativeDocumentMoniker": "Store.Route.Service\\Services\\Orders\\OrderService.cs",
+              "ToolTip": "C:\\My projects\\C#\\Store.Route\\Store.Route.Service\\Services\\Orders\\OrderService.cs",
+              "RelativeToolTip": "Store.Route.Service\\Services\\Orders\\OrderService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAawCYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:09:35.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\My projects\\C#\\Store.Route\\Store.Route.APIs\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Store.Route.APIs\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\My projects\\C#\\Store.Route\\Store.Route.APIs\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Store.Route.APIs\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:29:48.565Z",
+              "EditorCaption": ""
             }
           ]
         }

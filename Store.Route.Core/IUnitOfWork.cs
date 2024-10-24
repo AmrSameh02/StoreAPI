@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Store.Route.Core
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork 
     {
         Task<int> CompleteAsync();
         //Create Repository<T> And return

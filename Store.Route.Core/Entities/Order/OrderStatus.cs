@@ -12,10 +12,10 @@ namespace Store.Route.Core.Entities.Order
         [EnumMember(Value = "Pending")]
         Pending,
 
-        [EnumMember(Value = "PaymentRecieved")]
+        [EnumMember(Value = "Payment Recieved")]
         PaymentRecieved,
 
-        [EnumMember(Value = "PaymentFailed")]
+        [EnumMember(Value = "Payment Failed")]
         PaymentFailed
     }
 }
